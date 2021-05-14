@@ -6,3 +6,7 @@
   height: 40vmin;
   pointer-events: none;
 }
+
+.App-footer {
+  margin: 30px;
+}
