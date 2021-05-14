@@ -15,7 +15,7 @@ function App() {
         <footer className="App-footer">
           {" "}
           <small>
-            Built by Ijeoma Onyenokporo, open source code on{" "}
+            By Ijeoma Onyenokporo, open source code on{" "}
             <a href="https://github.com/Eyej/dictionary-project">Github</a>
           </small>
         </footer>
