@@ -7,10 +7,15 @@ export default function Results(props) {
   if (props.data) {
     return (
       <div className="Results">
-        <p>Hello, here's the definition for</p>
-        <p>{props.data.word}</p>
-        <Meanings data={props.data.meanings} />
-        {/* <p>{props.data[0].meanings[0].defintions[0].definition}</p> */}
+        <h1>{props.data.word}</h1>
+
+        {props.data.meanings.map(function (meaning, index) {
+          return (
+            <div key={index}>
+              <Meanings meaning={meaning} />
+            </div>
+          );
+        })}
       </div>
     );
   } else {

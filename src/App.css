@@ -1,8 +1,9 @@
 .App {
-  text-align: center;
 }
 
 .App-logo {
+  display: block;
+  margin: 0 auto;
   max-width: 200px;
   height: 40vmin;
   pointer-events: none;
@@ -10,4 +11,5 @@
 
 .App-footer {
   margin: 30px;
+  text-align: center;
 }

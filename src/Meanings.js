@@ -1,9 +1,20 @@
 import React from "react";
 
 export default function Meanings(props) {
+  console.log(props.meaning);
   return (
     <div className="Meanings">
-      <p>First meaning is: {props.data[0].definitions[0].definition}</p>
+      <h3>{props.meaning.partOfSpeech}</h3>
+      {props.meaning.definitions.map(function (item, index) {
+        return (
+          <div key={index}>
+            <p>
+              {item.definition} <br />
+              <em>"{item.example}"</em>
+            </p>
+          </div>
+        );
+      })}
     </div>
   );
 }
