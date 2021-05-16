@@ -1,5 +1,6 @@
 import React from "react";
-import Meanings from "./Meanings";
+import Meaning from "./Meaning";
+import "./Results.css";
 
 export default function Results(props) {
   console.log(props.data);
@@ -12,7 +13,7 @@ export default function Results(props) {
         {props.data.meanings.map(function (meaning, index) {
           return (
             <div key={index}>
-              <Meanings meaning={meaning} />
+              <Meaning meaning={meaning} />
             </div>
           );
         })}
