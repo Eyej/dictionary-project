@@ -8,8 +8,20 @@ export default function Results(props) {
   if (props.data) {
     return (
       <div className="Results">
-        <h1>{props.data.word}</h1>
-
+        <h2>
+          <a
+            href={props.data.phonetics[0].audio}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fas fa-volume-up "></i>
+          </a>{" "}
+          {props.data.word}
+          {/* {audio} {props.data.word} */}
+        </h2>
+        {props.data.phonetics.map(function (phonetic, index) {
+          return <span key={index}>{phonetic.text}</span>;
+        })}
         {props.data.meanings.map(function (meaning, index) {
           return (
             <div key={index}>
