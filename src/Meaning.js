@@ -11,6 +11,10 @@ export default function Meaning(props) {
             <p>
               <strong>Definition: </strong>
               {item.definition} <br />
+              {/* if({item.example}){
+                return (<strong>Example: </strong>
+              <em>{item.example}</em>);
+              } */}
               <strong>Example: </strong>
               <em>{item.example}</em>
             </p>
