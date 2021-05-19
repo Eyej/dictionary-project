@@ -14,15 +14,18 @@ export default function Results(props) {
               href={props.data.phonetics[0].audio}
               target="_blank"
               rel="noreferrer"
+              className="audio"
             >
-              <i className="fas fa-volume-up "></i>
+              <i class="fas fa-volume-down"></i>
             </a>{" "}
             {props.data.word}
             {/* {audio} {props.data.word} */}
           </h2>
-          {props.data.phonetics.map(function (phonetic, index) {
-            return <span key={index}>{phonetic.text}</span>;
-          })}
+          <div className="phonetic-text">
+            {props.data.phonetics.map(function (phonetic, index) {
+              return <p key={index}>{phonetic.text}</p>;
+            })}
+          </div>
         </section>
         {/* <section> */}
         {props.data.meanings.map(function (meaning, index) {

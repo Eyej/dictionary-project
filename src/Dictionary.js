@@ -44,9 +44,7 @@ export default function Dictionary(props) {
               onChange={getKeyword}
             />
           </form>
-          <small>
-            Hint: Search for words like sunrise, cookies, family, pets etc
-          </small>
+          <small>Suggested words: sunrise, cookies, family, pets ...</small>
         </section>
         <Results data={results} />
       </div>

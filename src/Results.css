@@ -3,4 +3,16 @@
   line-height: 1.5;
   font-weight: bold;
 }
-/* .Results */
+.Results h2 .audio {
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.Results .phonetic-text {
+  position: relative;
+  left: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  opacity: 0.7;
+  margin-left: 20px;
+}
