@@ -5,6 +5,13 @@
   margin: 20px 0px;
   box-shadow: 0 3px 10px rgba(138, 135, 135, 10%);
 }
+.Dictionary h1 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 16px;
+}
 .Dictionary input {
   width: 100%;
   padding: 15px;
