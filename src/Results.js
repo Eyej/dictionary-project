@@ -16,7 +16,7 @@ export default function Results(props) {
               rel="noreferrer"
               className="audio"
             >
-              <i class="fas fa-volume-down"></i>
+              <i className="fas fa-volume-down"></i>
             </a>{" "}
             {props.data.word}
             {/* {audio} {props.data.word} */}

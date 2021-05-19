@@ -1,0 +1,9 @@
+.Images .photo-credit a {
+  text-decoration: none;
+  color: rosybrown;
+}
+
+.Images img {
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
