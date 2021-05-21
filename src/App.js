@@ -1,5 +1,5 @@
 import Dictionary from "./Dictionary";
-import logo from "./my-logo.png"; //added my own logo
+import logo from "./my-logo.png"; //added my logo
 import "./App.css";
 
 function App() {
@@ -16,13 +16,29 @@ function App() {
           {" "}
           <small>
             Built by{" "}
-            <a href="https://www.linkedin.com/in/ijeoma-onyenokporo/">
+            <a
+              href="https://www.linkedin.com/in/ijeoma-onyenokporo/"
+              target="_blank"
+              rel="noreferrer"
+            >
               Ijeoma Onyenokporo
             </a>
             , this project is available on{" "}
-            <a href="https://github.com/Eyej/dictionary-project">Github</a> and
-            is hosted on{" "}
-            <a href="https://zen-snyder-f5ff2c.netlify.app/">Netlify</a>
+            <a
+              href="https://github.com/Eyej/dictionary-project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>{" "}
+            and is hosted on{" "}
+            <a
+              href="https://zen-snyder-f5ff2c.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Netlify
+            </a>
           </small>
         </footer>
       </div>
