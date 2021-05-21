@@ -19,10 +19,9 @@ export default function Images(props) {
               </div>
             );
           })}
-        </div>
-
-        <div className="photo-credit">
-          Photo-credit: <a href="https://www.pexels.com">Provided by Pexels</a>
+          <div className="photo-credit">
+            Photos provided by <a href="https://www.pexels.com">Pexels</a>
+          </div>
         </div>
       </section>
     );

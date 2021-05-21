@@ -1,6 +1,6 @@
 .App {
-  background: #f9f8fe;
-  /* height: 100%; */
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  /* background: #f9f8fe; */
 }
 
 .App-logo {
@@ -15,4 +15,7 @@
   margin-top: 10px;
   padding: 20px;
   text-align: center;
+}
+.App-footer a {
+  color: #188092;
 }

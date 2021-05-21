@@ -15,8 +15,14 @@ function App() {
         <footer className="App-footer">
           {" "}
           <small>
-            By Ijeoma Onyenokporo, open source code on{" "}
-            <a href="https://github.com/Eyej/dictionary-project">Github</a>
+            Built by{" "}
+            <a href="https://www.linkedin.com/in/ijeoma-onyenokporo/">
+              Ijeoma Onyenokporo
+            </a>
+            , this project is available on{" "}
+            <a href="https://github.com/Eyej/dictionary-project">Github</a> and
+            is hosted on{" "}
+            <a href="https://zen-snyder-f5ff2c.netlify.app/">Netlify</a>
           </small>
         </footer>
       </div>
