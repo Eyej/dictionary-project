@@ -20,11 +20,12 @@ export default function Images(props) {
             );
           })}
           <div className="photo-credit">
-            Photos provided by <a href="https://www.pexels.com">Pexels</a>
+            Images provided by <a href="https://www.pexels.com">Pexels</a>
           </div>
         </div>
       </section>
     );
+  } else {
+    return null;
   }
-  return null;
 }
